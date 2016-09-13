@@ -38,3 +38,13 @@ for ($i = 0; $i < $age; $i = $i + 1 ){
 echo "õnne!";
 
 ?>
+
+<br>
+
+<?php
+// kirjutad d ja see annab tänase kuupäeva, m on kuu ja Y on aasta nt 1997, y on aasta kujul nt 97
+echo date("d.m.Y H:i:s");
+
+
+
+?>
